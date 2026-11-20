@@ -1,0 +1,22 @@
+# 시크릿·환경변수 파일 — 절대 커밋 금지
+.env
+.env.*
+*.env
+!.env.example
+
+# 배포 산출물 (사이트 연결 정보 포함)
+.zcode-site/
+.zcode-site.json
+
+# 의존성·캐시
+node_modules/
+vendor/
+__pycache__/
+.next/cache/
+.turbo/
+.cache/
+
+# 로컬 파일
+.DS_Store
+*.log
+data/
